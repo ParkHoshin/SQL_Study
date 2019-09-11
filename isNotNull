@@ -1,0 +1,12 @@
+```
+<isNOtNull>
+조건을 줘서 동적 쿼리를 만들 때 사용하는 명령문.
+null 값이 아닐 경우 동작을 하게 됨.
+
+사용방법
+<isNotNull prepend="AND" property="값을 체크 할 변수">
+    USER_TYPE = #searchType#
+</isNotNull>
+
+*searchType 변수 값이 null 아닐 경우 AND USER_TYPE = 비교 값 쿼리가 추가 되게 됩니다.*
+```
